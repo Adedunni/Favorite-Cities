@@ -15,6 +15,7 @@
 		B3B8DD3222D3960E004A7F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B8DD3022D3960E004A7F19 /* LaunchScreen.storyboard */; };
 		B3B8DD3D22D3960E004A7F19 /* Favorite_CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DD3C22D3960E004A7F19 /* Favorite_CitiesTests.swift */; };
 		B3B8DD4822D3960E004A7F19 /* Favorite_CitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DD4722D3960E004A7F19 /* Favorite_CitiesUITests.swift */; };
+		B3B8DD5622D39887004A7F19 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B8DD5522D39887004A7F19 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B3B8DD4322D3960E004A7F19 /* Favorite CitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite CitiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B8DD4722D3960E004A7F19 /* Favorite_CitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_CitiesUITests.swift; sourceTree = "<group>"; };
 		B3B8DD4922D3960E004A7F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B8DD5522D39887004A7F19 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = City.swift; path = ../City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				B3B8DD2522D3960C004A7F19 /* AppDelegate.swift */,
+				B3B8DD5522D39887004A7F19 /* City.swift */,
 				B3B8DD2722D3960C004A7F19 /* MasterViewController.swift */,
 				B3B8DD2922D3960C004A7F19 /* DetailViewController.swift */,
 				B3B8DD2B22D3960C004A7F19 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				B3B8DD2A22D3960C004A7F19 /* DetailViewController.swift in Sources */,
 				B3B8DD2822D3960C004A7F19 /* MasterViewController.swift in Sources */,
+				B3B8DD5622D39887004A7F19 /* City.swift in Sources */,
 				B3B8DD2622D3960C004A7F19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV32H3D42X;
 				INFOPLIST_FILE = "Favorite Cities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV32H3D42X;
 				INFOPLIST_FILE = "Favorite Cities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
