@@ -46,5 +46,4 @@ class DetailViewController: UIViewController {
             city.population = Int(populationTextField.text!)!
         }
     }
-    
 }
